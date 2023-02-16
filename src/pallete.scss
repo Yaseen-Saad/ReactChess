@@ -1,0 +1,22 @@
+#root {
+  > div {
+    display: grid;
+    position:relative;
+    width: 800px;
+    margin: auto;
+    border: 2px solid black;
+    height: 800px;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    div span {
+      width: 100px;
+      height: 100px;
+      &:hover {
+        cursor: grab;
+      }
+      &:active {
+        cursor: grabbing;
+      }
+    }
+  }
+}

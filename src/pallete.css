@@ -1,0 +1,20 @@
+#root > div {
+  display: grid;
+  position: relative;
+  width: 800px;
+  margin: auto;
+  border: 2px solid black;
+  height: 800px;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+}
+#root > div div span {
+  width: 100px;
+  height: 100px;
+}
+#root > div div span:hover {
+  cursor: grab;
+}
+#root > div div span:active {
+  cursor: grabbing;
+}/*# sourceMappingURL=pallete.css.map */
